@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const GetPuppies = (props) => {
+const ListPuppies = (props) => {
 return(
     props.players.map(puppy => {
         return (<div className="single-player-card">
@@ -15,4 +15,4 @@ return(
 )
 }
 
-export default GetPuppies;
+export default ListPuppies;
