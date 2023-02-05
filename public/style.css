@@ -64,3 +64,8 @@
   .italics {
     font-style: italic;
   }
+
+  #search-bar input {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
